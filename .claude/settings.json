@@ -1,7 +1,8 @@
 {
   "enabledPlugins": {
     "playwright@anthropic-plugin-directory": true,
-    "oh-my-claudecode@omc": true
+    "oh-my-claudecode@omc": true,
+    "frontend-design@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "omc": {
