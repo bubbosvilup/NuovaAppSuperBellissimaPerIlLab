@@ -1,5 +1,14 @@
 {
   "enabledPlugins": {
-    "playwright@anthropic-plugin-directory": true
+    "playwright@anthropic-plugin-directory": true,
+    "oh-my-claudecode@omc": true
+  },
+  "extraKnownMarketplaces": {
+    "omc": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/Yeachan-Heo/oh-my-claudecode.git"
+      }
+    }
   }
 }
