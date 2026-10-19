@@ -1,7 +1,9 @@
 ---
-id: LAB-0000
+id: "000"             # numero sull'etichetta, tra virgolette
 modello: ~            # slug in modelli/, es. lenovo-thinkpad-t480
+interventi: []        # numeri scheda di riparazione, es. [6842]
 numero_serie: ~
+emc: ~                # solo Apple, es. "EMC 2835"
 data_arrivo: ~        # AAAA-MM-GG
 provenienza: ~        # donazione, recupero, ...
 stato: arrivato       # vedi docs/convenzioni.md
@@ -13,7 +15,7 @@ difetti: []           # es. ["schermo rotto", "non si accende"]
 parti_mancanti: []
 ---
 
-# LAB-0000
+# 000
 
 ## Condizioni
 

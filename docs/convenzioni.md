@@ -10,8 +10,22 @@ Più laptop possono puntare allo stesso modello: tutorial e parti si scrivono un
 
 ## ID laptop
 
-Formato `LAB-0001`, `LAB-0002`, … progressivo, mai riutilizzato (anche se il laptop viene smaltito).
-File: `inventario/LAB-0001.md`.
+L'ID è il numero a tre cifre scritto sull'etichetta fisica del laptop (`001`, `002`, …), mai riutilizzato
+(anche se il laptop viene smaltito). File: `inventario/001.md`.
+
+Laptop ancora senza etichetta: file `inventario/senza-id-<n>.md` con `id: ~`; quando riceve l'etichetta
+si rinomina il file e si compila `id`.
+
+## Numero intervento
+
+Il numero della scheda di riparazione (storico del negozio) va in `interventi`. Un laptop può averne più
+di uno, o nessuno.
+
+## Slug modello Apple
+
+Per i Mac lo slug usa il codice "Model Axxxx" stampato sotto la scocca: `apple-macbook-pro-a1502`.
+Lo stesso codice copre più anni con schede logiche diverse: l'anno esatto si ricava dal numero EMC,
+stampato accanto, da registrare nella scheda del laptop.
 
 ## Slug modello
 

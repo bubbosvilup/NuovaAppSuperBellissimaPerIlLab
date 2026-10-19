@@ -17,7 +17,7 @@ Dettagli in [docs/roadmap.md](docs/roadmap.md).
 ## Struttura
 
 ```
-inventario/          una scheda per ogni laptop fisico (ID LAB-xxxx)
+inventario/          una scheda per ogni laptop fisico (ID = numero sull'etichetta, es. 001)
   INDEX.md           tabella riepilogativa di tutto l'inventario
 modelli/             una scheda per ogni modello: specifiche, smontaggio, parti, video
   INDEX.md           elenco dei modelli

@@ -4,7 +4,7 @@
 
 Obiettivo: avere su file tutto ciò che l'app dovrà mostrare, prima di scrivere codice.
 
-- [ ] Censire ogni laptop presente nel lab → `inventario/LAB-xxxx.md`
+- [ ] Censire ogni laptop presente nel lab → `inventario/<id>.md`
 - [ ] Per ogni modello incontrato, creare la scheda → `modelli/<slug>.md`
 - [ ] Per ogni modello: specifiche e varianti
 - [ ] Per ogni modello: procedura di smontaggio (testo) + video di riferimento
