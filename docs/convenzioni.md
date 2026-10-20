@@ -16,9 +16,15 @@ L'ID è il numero a tre cifre scritto sull'etichetta fisica del laptop (`001`, `
 Laptop ancora senza etichetta: file `inventario/senza-id-<n>.md` con `id: ~`; quando riceve l'etichetta
 si rinomina il file e si compila `id`.
 
+## ID caricatori e parti
+
+Caricatori e parti di valore hanno un ID scritto su scotch di carta attaccato all'oggetto (es. `1A`).
+L'ID è solo un'etichetta: non codifica la posizione.
+
 ## Numero intervento
 
-Il numero della scheda di riparazione (storico del negozio) va in `interventi`. Un laptop può averne più
+Il numero della scheda di riparazione dell'e-shop va in `interventi`. Lo storico completo resta
+nell'e-shop: qui non si copiano dati del cliente. Un laptop può averne più
 di uno, o nessuno.
 
 ## Slug modello Apple
