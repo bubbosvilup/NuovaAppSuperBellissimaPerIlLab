@@ -10,8 +10,10 @@ Più laptop possono puntare allo stesso modello: tutorial e parti si scrivono un
 
 ## ID laptop
 
-L'ID è il numero a tre cifre scritto sull'etichetta fisica del laptop (`001`, `002`, …), mai riutilizzato
-(anche se il laptop viene smaltito). File: `inventario/001.md`.
+L'ID è scritto sull'etichetta fisica del laptop e non viene mai riutilizzato (anche se il laptop viene smaltito).
+
+- **Mac:** `M` + tre cifre → `M001`, `M002`, … File: `inventario/M001.md`.
+- **Tutti gli altri:** tre cifre senza lettera → `001`, `002`, … File: `inventario/001.md`.
 
 Laptop ancora senza etichetta: file `inventario/senza-id-<n>.md` con `id: ~`; quando riceve l'etichetta
 si rinomina il file e si compila `id`.

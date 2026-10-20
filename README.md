@@ -17,7 +17,7 @@ Dettagli in [docs/roadmap.md](docs/roadmap.md).
 ## Struttura
 
 ```
-inventario/          una scheda per ogni laptop fisico (ID = numero sull'etichetta, es. 001)
+inventario/          una scheda per ogni laptop fisico (ID dall'etichetta: M001 Mac, 001 altri)
   INDEX.md           tabella riepilogativa di tutto l'inventario
 caricatori/          tabella dei caricatori e compatibilità con i modelli
 modelli/             una scheda per ogni modello: specifiche, smontaggio, parti, video

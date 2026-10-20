@@ -1,5 +1,5 @@
 ---
-id: "000"             # numero sull'etichetta, tra virgolette
+id: "000"             # etichetta: M001 per i Mac, 001 per gli altri; tra virgolette
 modello: ~            # slug in modelli/, es. lenovo-thinkpad-t480
 interventi: []        # numeri scheda di riparazione, es. [6842]
 numero_serie: ~
