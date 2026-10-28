@@ -51,6 +51,7 @@ File: `modelli/<slug>.md`.
 | `riparato` | funzionante |
 | `da-smontare` | destinato al recupero parti |
 | `smontato` | parti recuperate |
+| `da-smaltire` | in lab, destinato allo smaltimento (niente o quasi da recuperare) |
 | `smaltito` | uscito dal lab |
 
 Ogni cambio di stato si registra anche nella sezione *Storico* della scheda, con la data.
